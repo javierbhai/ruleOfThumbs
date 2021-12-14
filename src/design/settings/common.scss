@@ -1,0 +1,15 @@
+@import "./colors.scss";
+@import "./fonts/";
+
+:root {
+  --color-green-positive: #{$green-positive};
+  --color-yellow-negative: #{$yellow-negative};
+  --color-dark-background: #{$dark-background};
+  --color-darker-background: #{$darker-background};
+  --color-darker-gray: #{$darker-gray};
+  --color-dark-gray: #{$dark-gray};
+  --color-light-gray: #{$light-gray};
+  --color-light-background: #{$light-background};
+  --color-lighter-background: #{$lighter-background};
+  --color-white: #{$white};
+}
