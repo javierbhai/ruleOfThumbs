@@ -5,16 +5,20 @@
     "start": "webpack serve"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@fortawesome/fontawesome-svg-core": "1.2.36",
+    "@fortawesome/free-solid-svg-icons": "5.15.4",
+    "@fortawesome/react-fontawesome": "0.1.16",
     "core-js": "3.6.5",
-    "file-loader": "^6.2.0",
+    "file-loader": "6.2.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-select": "^5.2.1",
+    "react-redux": "7.2.6",
+    "react-select": "5.2.1",
+    "redux": "4.1.2",
+    "redux-thunk": "2.4.0",
     "sass": "1.42.0",
-    "svg-url-loader": "^7.1.1"
+    "svg-url-loader": "7.1.1",
+    "yarn": "1.22.17"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",

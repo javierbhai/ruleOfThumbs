@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Text, Title, Selector } from "../../ui-kit/atoms";
 import "./home.scss";
 //Icons
@@ -13,7 +13,17 @@ import bgPeople from "../../assets/img/bg-people.png";
 import bgPeople2x from "../../assets/img/bg-people.@2x.png";
 import { Button } from "../../ui-kit/atoms/Button";
 
-export const Home = () => {
+//Redux
+import { connect } from 'react-redux';
+import { loadThumbsAsyncAction } from '../../store/rootReducer';
+
+export const Home = ({ thumbsData, fetchThumbsData }) => {
+    useEffect(() => {
+        fetchThumbsData();
+    }, []);
+
+    console.log(thumbsData);
+
   return (
     <div className="home">
       <nav className="nav" role="navigation">
@@ -169,3 +179,13 @@ export const Home = () => {
     </div>
   );
 }
+
+const mapStateToProps = (state) => ({
+  thumbsData: state.thumbs.thumbs
+})
+
+const mapDispatchToProps = (dispatch) => ({
+  fetchThumbsData: () => dispatch(loadThumbsAsyncAction())
+})
+  
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
