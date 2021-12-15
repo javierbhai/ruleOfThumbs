@@ -6,18 +6,11 @@
   color: var(--color-white);
   font-size: 15px;
   font-weight: 400;
-  opacity: 50%;
   padding: 10px 20px;
 }
-.card__icon-button{
-  border: none;
-  height: 30px;
-  width: 30px;
-  padding-top: 2px;
-}
-.card__icon-button[aria-label="thumbs up"]{
-  background-color: rgba(var(--color-green-positive), 0.8);
-}
-.card__icon-button[aria-label="thumbs down"]{
-  background-color: rgba(var(--color-yellow-negative), 0.8);
+
+.card--list .card__vote{
+  @include desktop {
+    font-size: 18px;
+  }
 }

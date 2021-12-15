@@ -3,5 +3,10 @@
 .text{
   color: var(--color-white);
   font-weight: 300;
-  opacity: 50%;
+  font-size: 15px;
+  margin-bottom: 0;
+  @include desktop {
+    font-size: 18px;
+    margin-top: 0px;
+  }
 }

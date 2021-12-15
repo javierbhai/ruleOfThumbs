@@ -1,0 +1,1 @@
+export { RateComp } from "./RateComp";

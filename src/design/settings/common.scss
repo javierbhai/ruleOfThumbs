@@ -13,3 +13,21 @@
   --color-lighter-background: #{$lighter-background};
   --color-white: #{$white};
 }
+
+@mixin mobile {
+  @media all and (min-width: 500px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media all and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media all and (min-width: 1100px) {
+    @content;
+  }
+}

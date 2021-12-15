@@ -1,0 +1,10 @@
+@import "common.scss";
+
+.eyebrowText{
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 12px;
+  @include desktop {
+    font-size: 14px;
+  }
+}

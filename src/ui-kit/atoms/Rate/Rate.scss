@@ -1,0 +1,42 @@
+@import "common.scss";
+
+.rate{
+  color: var(--color-white);
+  display: flex;
+  height: 36px;
+  flex-wrap: wrap;
+  align-content: center;
+  box-sizing: border-box;
+  &__indicator{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &--positive{
+    background-color: rgba(var(--color-green-positive), 0.6);
+    padding-left: 10px;
+  }
+  &--negative{
+    background-color: rgba(var(--color-yellow-negative), 0.6);
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  &__icon-button {
+    margin: 0 5px;
+  }
+}
+
+.card--list .rate{
+  @include desktop {
+    height: 54px;
+  }
+  &__indicator{
+    @include desktop {
+      font-size: 27px;
+    }
+  }
+  &__icon-button {
+    @include desktop {
+      width: 22px;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export { Card__TextCont } from "./Card__TextCont";

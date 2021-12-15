@@ -1,0 +1,1 @@
+export { EyebrowText } from "./EyebrowText";

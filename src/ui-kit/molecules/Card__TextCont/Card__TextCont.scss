@@ -1,0 +1,16 @@
+@import "common.scss";
+
+.Card__TextCont{
+  width: 80%;
+  position: relative;
+  z-index: 2;
+}
+
+.card--list .Card__TextCont{
+  @include tablet {
+    width: 400px;
+  }
+  @include desktop {
+    width: 540px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "common.scss";
+
+.card__icon-button{
+  border: none;
+  height: 30px;
+  width: 30px;
+  padding-top: 2px;
+}
+
+.card--list .card__icon-button{
+  @include desktop {
+    height: 45px;
+    width: 45px;
+    img{
+      width: 22px;
+      margin: 0;
+    }
+  }
+}
+
+.card__icon-button[aria-label="thumbs up"]{
+  background-color: rgba(var(--color-green-positive), 0.8);
+  margin-right: 10px;
+}
+.card__icon-button[aria-label="thumbs down"]{
+  background-color: rgba(var(--color-yellow-negative), 0.8);
+  margin-right: 10px;
+}

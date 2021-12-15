@@ -1,0 +1,15 @@
+@import "common.scss";
+
+.rateComp{
+  display: flex;
+  width: 101%;
+  z-index: 1;
+}
+
+.card--list .rateComp{
+  @include tablet {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}

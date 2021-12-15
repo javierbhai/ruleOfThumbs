@@ -9,6 +9,11 @@
             "votes": {
                 "positive": 23,
                 "negative": 36
+            },
+            "vote": {
+                "status": false,
+                "positive": false,
+                "negative": false
             }
         },
         {
@@ -20,6 +25,11 @@
             "votes": {
                 "positive": 418,
                 "negative": 324
+            },
+            "vote": {
+                "status": false,
+                "positive": false,
+                "negative": false
             }
         },
         {
@@ -31,6 +41,11 @@
             "votes": {
                 "positive": 45,
                 "negative": 97
+            },
+            "vote": {
+                "status": false,
+                "positive": false,
+                "negative": false
             }
         },
         {
@@ -42,6 +57,11 @@
             "votes": {
                 "positive": 18,
                 "negative": 3
+            },
+            "vote": {
+                "status": false,
+                "positive": false,
+                "negative": false
             }
         },
         {
@@ -53,6 +73,11 @@
             "votes": {
                 "positive": 1237,
                 "negative": 894
+            },
+            "vote": {
+                "status": false,
+                "positive": false,
+                "negative": false
             }
         },
         {
@@ -64,6 +89,11 @@
             "votes": {
                 "positive": 118,
                 "negative": 45
+            },
+            "vote": {
+                "status": false,
+                "positive": false,
+                "negative": false
             }
         }
     ]

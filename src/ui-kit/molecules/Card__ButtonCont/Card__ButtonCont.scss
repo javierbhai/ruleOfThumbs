@@ -1,0 +1,11 @@
+@import "common.scss";
+
+.Card__ButtonCont{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}

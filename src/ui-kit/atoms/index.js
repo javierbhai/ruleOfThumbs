@@ -1,3 +1,13 @@
+export { Aside } from "./Aside";
+export { Button } from "./Button";
+export { ButtonUpDown } from "./ButtonUpDown";
+export { CardTitle } from "./CardTitle";
+export { Header } from "./Header";
+export { EyebrowText } from "./EyebrowText";
+export { Nav } from "./Nav";
+export { Rate } from "./Rate";
+export { Selector } from "./Selector";
 export { Text } from "./Text";
 export { Title } from "./Title";
-export { Selector } from "./Selector";
+export { VoteAgainButton } from "./VoteAgainButton";
+export { Footer } from "./Footer";

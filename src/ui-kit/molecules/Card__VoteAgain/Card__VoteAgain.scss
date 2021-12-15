@@ -1,0 +1,14 @@
+@import "common.scss";
+
+.card--list .Card__ButtonCont{
+  @include tablet {
+    width: 240px;
+    padding-right: 10px;
+  }
+  &__Buttons{
+    @include tablet {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

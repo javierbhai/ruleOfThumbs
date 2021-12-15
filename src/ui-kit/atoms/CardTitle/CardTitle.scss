@@ -1,0 +1,12 @@
+@import "common.scss";
+
+.card__title{
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+  @include desktop {
+    font-size: 36px;
+    margin: 12px 0;
+  }
+}
